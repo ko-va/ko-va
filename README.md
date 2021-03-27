@@ -3,7 +3,7 @@
 ## I Love winter bathing, cats and sushi!
 
 - 🎓  Full Stack JavaScript Developer at School of applied technology < /salt> 🧂
-- 🇬🇧  Studies BSc Computing at Arden University
+- 🇬🇧  Studied BSc Computing at Arden University
 - 🥅  2021 Goals: Eat less, code & drink more
 
 ### Spotify Playing 🎧
