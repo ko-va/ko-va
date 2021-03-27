@@ -6,6 +6,10 @@
 - 🇬🇧  Studies BSc Computing at Arden University
 - 🥅  2021 Goals: Eat less, code & drink more
 
+### Spotify Playing 🎧
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kochegarova.vk&cover_image=false&theme=default)](https://github.com/kittinan/spotify-github-profile)
+
 ### Connect with me:
 
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
