@@ -8,7 +8,7 @@
 
 ### Spotify Playing 🎧
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kochegarova.vk&cover_image=false&theme=default)](https://open.spotify.com/user/kochegarova.vk)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=kochegarova.vk&cover_image=false&theme=default)](https://open.spotify.com/user/kochegarova.vk?si=06052ecf13b64e9b)
 
 ### Connect with me:
 
