@@ -31,15 +31,6 @@
 ---
 
 <details>
-  <summary>:zap: Recent GitHub Activity</summary>
-  
-<!--START_SECTION:activity-->
-
-<!--END_SECTION:activity-->
-
-</details>
-
-<details>
   <summary>:zap: GitHub Stats</summary>
   
   [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ko-va)](https://github.com/anuraghazra/github-readme-stats)
