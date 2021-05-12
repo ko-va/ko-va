@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html {
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-bar__list {
+  display: flex;
+}
+
+.nav__element {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header, .triangels {
+  display: none;
+}
+
+.hero {
+  color: black;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+  background: #E4ECEC;
+}
+
+.hithere {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+.waving {
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.skills {
+  position: relative;
+}
+
+.skills__container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  filter: drop-shadow(3px 3px 7px #4A4A4A);}
+
+.icon-container {
+  height: 100px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.skill-desc {
+  margin-bottom: 2em;
+}
+
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 3em;
+}
+
+.app__subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4A4A4A;
+  letter-spacing: .2em;
+  font-size: .85em;
+}
+
+.app__title {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: -.4em;
+  display: block;
+}
+
+.app__desc {
+  color: #4A4A4A;
+  margin-bottom: 3em;
+  font-size: .85em;
+  line-height: 1.8em;
+  font-weight: 500px;
+}
+
+@media only screen and (min-width: 800px) {
+  .portfolio {
+    text-align: left;
+    padding-top: 7em;
+  }
+
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
+  .portfolio-left {
+    display: grid;
+    place-content: center;
+  }
+
+  .skills__container ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+
+  .portfolio-container img {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  body {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.05), rgb(255, 255, 255)), url(../images/bg.jpg) no-repeat center center;
+    position: relative;
+    background-size:100% 101vh;
+  }
+  .hero {
+    height: 90vh;
+    background: unset;
+  }
+
+ .nav-container {
+   display: grid;
+   grid-template-columns: 66% auto;
+ }
+
+ .nav-container__header {
+
+ }
+
+ header {
+   padding: 2em 2em 2em 4em;
+
+ }
+
+ .social-header {
+   padding: 2em 4em 2em 0;
+ }
+
+ section {
+   padding: 4em;
+ }
+
+ .social-header {
+   display: block;
+ }
+
+ .social-list {
+   display: flex;
+   justify-content: space-between;
+   width: 7em;
+   float: right;
+ }
+
+ .social-icon {
+   width: 20px;
+ }
+
+ .hero {
+   display: grid;
+   grid-template-columns: 66% auto;
+   padding: 0;
+ }
+
+ .hero__content {
+   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+   padding: 6em 8em 6em 4em;
+   text-align: left;
+ }
+
+ h1 {
+   font-size: 3em;
+   line-height: 1.2em;
+ }
+
+ .hithere {
+   margin: unset;
+ }
+
+ .triangels {
+   display: unset;
+   margin-left: -58.57%;
+   margin-top: -12%;
+   width: 100%;
+
+ }
+
+ .portfolio img {
+   float: right;
+   max-width: 500px;
+ }
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+
+  .social-header {
+    padding: 2em 10em 2em 0;
+  }
+
+  section {
+    padding: 10em 10em 4em 10em;
+  }
+
+  .hero .hero__content {
+    padding: 6em 8em 6em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+
+  .social-header {
+    padding: 2em 20em 2em 0;
+  }
+
+  section {
+    padding: 6em 20em 4em 20em;
+  }
+
+  .hero .hero__content {
+    padding: 9em 20em 6em 20em;
+  }
+}
+
+
+
+
+
