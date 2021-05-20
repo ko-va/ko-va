@@ -14,13 +14,13 @@
       <nav class="nav-bar">
         <ul class="nav-bar__list">
           <li>
-            <a href="#" class="nav__element">my work</a>
+            <a href="#skills" class="nav__element">my skills</a>
           </li>
           <li>
-            <a href="#" class="nav__element">my skills</a>
+            <a href="#work" class="nav__element">my work</a>
           </li>
           <li>
-            <a href="#" class="nav__element">hire me</a>
+            <a href="#hire-me" class="nav__element">hire me</a>
           </li>
         </ul>
       </nav>
@@ -28,9 +28,9 @@
 
     <div class="social-header">
       <ul class="social-list">
-        <li><a href="#"><img class="social-icon" src="images/dribble.svg" alt="dribble"></a></li>
-        <li><a href="#"><img class="social-icon" src="images/github.svg" alt="github"></a></li>
-        <li><a href="#"><img class="social-icon" src="images/linkedin.svg" alt="linkedin"></a></li>
+        <li><a href="https://dribbble.com/ko-va" target="_blank"><img class="social-icon" src="images/dribble.svg" alt="dribble"></a></li>
+        <li><a href="https://github.com/ko-va" target="_blank"><img class="social-icon" src="images/github.svg" alt="github"></a></li>
+        <li><a href="https://www.linkedin.com/in/ko-va/" target="_blank"><img class="social-icon" src="images/linkedin.svg" alt="linkedin"></a></li>
       </ul>
     </div>
   </div>
@@ -156,11 +156,11 @@
     </svg>
   </div>
 
-  <img class="polygon-backgr" src="images/polygon-backgr.svg" alt="Polygon bckgr">
+  <img id="skills" class="polygon-backgr" src="images/polygon-backgr.svg" alt="Polygon bckgr">
 
   <section class="skills">
     <div class="skills__container">
-      <ul>
+      <ul class="skills__container-list">
         <li class="skill__container transition2">
           <div class="icon-container one">
             <img src="images/ui-ux-icon.svg" alt="UI/UX icon">
@@ -186,41 +186,56 @@
     </div>
   </section>
 
-  <section class="portfolio">
+  <section id="work" class="portfolio">
 
      <div class="portfolio-container transition3">
        <div class="portfolio-left">
           <div class="inner">
             <p class="app__subtitle">Food Box Delivery App</p>
-            <p class="app__title">EatLocal.com</p>
-            <p class="app__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lacus nec dui gravida eleifend in nec nunc. </p>
+            <p class="app__title"><a href="https://eatlocal.netlify.app/" target="_blank">EatLocal.com</a></p>
+            <p class="app__desc">The app allows customers to subscribe for weekly deliveries, create profiles and process payments. <a href="https://github.com/ko-va/EatLocal" target="_blank"><strong>Source code</strong></a></p>
           </div>
        </div>
-       <a href="#"><img src="images/eatlocal.png" alt="EatLocal App Screenshot"></a>
+       <a href="https://eatlocal.netlify.app/" target="_blank"><img src="images/eatlocal.png" alt="EatLocal App Screenshot"></a>
      </div>
 
     <div class="portfolio-container transition3">
       <div class="portfolio-left">
         <div class="inner">
           <p class="app__subtitle">Reminder App</p>
-          <p class="app__title">Todui.com</p>
-          <p class="app__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lacus nec dui gravida eleifend in nec nunc. </p>
+          <p class="app__title"><a href="https://todui.ko-va.io/" target="_blank">Todui.com</a></p>
+          <p class="app__desc">Board where multiple lists can be created. Visual representation once the item marked as done. Authentication form. <a href="https://github.com/ko-va/Todui" target="_blank"><strong>Source code</strong></a></p>
         </div>
       </div>
-      <a href="#"><img src="images/todui.png" alt="EatLocal App Screenshot"></a>
+      <a href="https://todui.ko-va.io/" target="_blank"><img src="images/todui.png" alt="EatLocal App Screenshot"></a>
     </div>
 
     <div class="portfolio-container transition3">
       <div class="portfolio-left">
         <div class="inner">
           <p class="app__subtitle">Travel Planner App</p>
-          <p class="app__title">Yugen.com</p>
-          <p class="app__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lacus nec dui gravida eleifend in nec nunc. </p>
+          <p class="app__title"><a href="#" target="_blank">Yugen.com</a></p>
+          <p class="app__desc">Inspiration travel app that provides visual representation of countries as well as some useful information such as local currency and language. <a href="https://github.com/ko-va/Hackday-Tavel-Planner" target="_blank"><strong>Source code</strong></a></p>
         </div>
       </div>
-      <a href="#"><img src="images/yugen.png" alt="EatLocal App Screenshot"></a>
+      <a href="https://github.com/ko-va/Hackday-Tavel-Planner" target="_blank"><img src="images/yugen.png" alt="EatLocal App Screenshot"></a>
     </div>
 
+  </section>
+
+  <section id="hire-me" class="section--contact">
+    <div class="contact-content">
+      <p class="like">Like what you see?</p>
+      <p class="hire">Hire me!</p>
+    </div>
+
+    <div class="social-media">
+      <ul class="contact-social">
+        <li><a href="https://dribbble.com/ko-va" target="_blank"><img class="social-icon__footer" src="images/dribble.svg" alt="dribble"></a></li>
+        <li><a href="https://github.com/ko-va" target="_blank"><img class="social-icon__footer" src="images/github.svg" alt="github"></a></li>
+        <li><a href="https://www.linkedin.com/in/ko-va/" target="_blank"><img class="social-icon__footer" src="images/linkedin.svg" alt="linkedin"></a></li>
+      </ul>
+    </div>
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
@@ -276,6 +291,12 @@
   </script>
 
 </body>
+
+<footer class="footer">
+  <a href="#"><img class="footer-up" src="images/footer-up.svg" alt="up"></a>
+  <p class="footer__content">Copyright © ko-va.io all rights reserved</p>
+  <p class="footer__content">Background Photography by <a href="https://www.pexels.com/photo/mountains-near-river-under-clear-day-sky-444497/" target="_blank">eberhard grossgasteiger</a></p>
+</footer>
 
 
 
